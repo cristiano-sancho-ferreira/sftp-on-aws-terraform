@@ -42,3 +42,31 @@ Essa arquitetura detalha uma solução de ingestão de arquivos SFTP com control
   * O Secrets Manager é usado para garantir que credenciais sensíveis sejam acessadas de forma segura.
 
   Essa arquitetura adiciona um controle refinado sobre permissões de acesso (IAM Role) enquanto mantém a segurança e a escalabilidade na AWS.
+
+
+
+Conectando ao servidor SFTP (WinSCP)
+WinSCP > Nova Sessão > Avançado > Diretórios > Diretórios Remotos
+Definir como vazio
+Upload de arquivo bem-sucedido, mas erro ao definir permissão e/ou registro de data e hora (WinSCP)
+Menu > Opções > Preferências > Transferir > Editar
+Opções comuns > Desmarque “Preservar timeStamp”
+Opções de upload > desmarque “Definir permissões”
+
+
+---
+
+## Possíveis problemas e soluções
+
+### Conectando ao servidor SFTP (WinSCP)
+
+* WinSCP > New Session > Advanced > Directories > Remote Directories
+  * Definir como vazio
+
+### Upload de arquivo bem-sucedido, mas erro ao definir permissão e/ou registro de data e hora (WinSCP)
+
+1. Menu > Options > Preferences > Transfer > Edit
+2. Common Options > Uncheck “Preserve timeStamp”
+3. Upload options > uncheck “Set permissions”
+
+---
