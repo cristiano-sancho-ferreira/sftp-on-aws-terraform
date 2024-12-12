@@ -1,26 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![BSD-3-Clause License][license-shield]][license-url]
-
-<br />
-<div align="center">
-    <p>Copyright (c) 2022, <a href="https://github.com/programmingwithalex">GitHub@programmingwithalex</a></p>
-
-
-  <h3 align="center">AWS SFTP Server</h3>
-
-  <p align="center">
-    create SFTP server on AWS with AWS Transfer Family
-    <br />
-    <a href="https://github.com/programmingwithalex/aws_sftp_server">View Demo</a>
-    ·
-    <a href="https://github.com/programmingwithalex/aws_sftp_server/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/programmingwithalex/aws_sftp_server/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
 
 
 ## Series Outline
@@ -121,28 +98,4 @@ Two options to link SNS topic to S3 event notifications:
 
 ---
 
-## To Do
 
-* Explore [alternatives to Secrets Manager for authentication with Cognito](https://docs.aws.amazon.com/transfer/latest/userguide/custom-identity-provider-users.html)
-
----
-
-![aws diagram](images/aws_diagram.png)
-
----
-
-## License
-
-[BSD 3-Clause License](https://github.com/programmingwithalex/aws_sftp_server/blob/main/LICENSE)
-
-
-[contributors-shield]: https://img.shields.io/github/contributors/programmingwithalex/aws_sftp_server?style=for-the-badge
-[contributors-url]: https://github.com/programmingwithalex/aws_sftp_server/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/programmingwithalex/aws_sftp_server?style=for-the-badge
-[forks-url]: https://github.com/programmingwithalex/aws_sftp_server/network/members
-[stars-shield]: https://img.shields.io/github/stars/programmingwithalex/aws_sftp_server?style=for-the-badge
-[stars-url]: https://github.com/programmingwithalex/aws_sftp_server/stargazers
-[issues-shield]: https://img.shields.io/github/issues/programmingwithalex/aws_sftp_server?style=for-the-badge
-[issues-url]: https://github.com/programmingwithalex/aws_sftp_server/issues
-[license-shield]: https://img.shields.io/github/license/programmingwithalex/aws_sftp_server.svg?style=for-the-badge
-[license-url]: https://github.com/programmingwithalex/aws_sftp_server/blob/main/LICENSE
