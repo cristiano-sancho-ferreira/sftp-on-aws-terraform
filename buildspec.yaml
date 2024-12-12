@@ -1,0 +1,28 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - "apt install unzip -y"
+      - "wget https://releases.hashicorp.com/terraform/1.5.2/terraform_1.9.2_linux_amd64.zip"
+      - "unzip terraform_1.9.2_linux_amd64.zip"
+      - "mv terraform /usr/local/bin/"
+      - "pwd"
+
+  pre_build:
+    commands:
+      - python sdlf-parameters.py
+      - cd infra
+      - terraform init -var-file="../dev.tfvars" -migrate-state
+
+  build:
+    commands:
+      - "pwd"
+      #- terraform refresh
+      - terraform apply -auto-approve -var-file="../dev.tfvars"
+      
+  post_build:
+    commands:
+      - echo Terraform $TF_COMMAND completed on `date`
+
+      

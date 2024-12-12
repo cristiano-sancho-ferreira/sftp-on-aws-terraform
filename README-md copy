@@ -1,0 +1,63 @@
+AWS Transfer Family - Demo
+https://www.youtube.com/watch?v=AQtTG2N_QCg
+
+![alt text](image.png)
+
+
+
+Há 3 tipos de protocolos:
+
+- SFTP e FTPS: Internet Publica 
+- FTP: VPC privada
+
+
+###############################
+Serviço de SFTP gerenciado. AWS SFTP
+https://www.youtube.com/watch?v=p7T09kg_Ybo
+
+- Totalmente gerenciado
+- Serviço serverless
+- Seguro e escalavel
+- Route53, IAM e S3
+
+
+###############################<br>
+Easy SFTP Setup with AWS Transfer Family - Step by Step Tutorial<br>
+https://www.youtube.com/watch?v=3_HHSnoFsoM Nota10
+
+- 00:00 Introduction
+- 00:33 Service Architecture
+- 01:26 Step by Step Tutorial - S3 - Creation
+- 02:26 Step by Step Tutorial - SFTP Creation
+- 05:10 Set up IAM Role
+- 06:55 Create SFTP User
+- 09:14 Test Connection
+- 12:28 Conclusion
+
+
+
+AWS Transfer Family! 🚀 Migración sin esfuerzo de SFTP a S3 en AWS
+https://www.youtube.com/watch?v=xKPdXUMsaQo
+
+
+ToDO
+https://www.youtube.com/watch?v=tnATc92S1yM&list=PLbn3jWIXv_iaYoaT6EeycWBnlgM6LaZUA&index=3
+
+
+{
+  "username": "sftpadmin",
+  "password": "password",
+  "protocol": "SFTP",
+  "serverId": "s-0318d883dd5f4292a",
+  "sourceIp": "177.62.223.38"
+}
+
+usrHapvida
+usrUnimed
+usrUnimedBotucatu
+usrUnimedSaoRoque
+usrAmil
+usrIntermedica
+usrSaoLuis
+usrPreventSenior
+

@@ -1,0 +1,7 @@
+.env/*
+
+infra/.terraform/*
+infra/.terraform.*
+infra/terraform.*
+exemplo/20240830_140839.mp4
+dev.tfvars
