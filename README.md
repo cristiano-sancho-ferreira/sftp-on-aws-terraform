@@ -1,7 +1,7 @@
 # Arquitetura SFTP com Controle de Permissões e Integração AWS
 Essa arquitetura detalha uma solução de ingestão de arquivos SFTP com controle de permissões personalizadas e integração segura entre diversos serviços da AWS.
 
-![alt text](image.png)
+![alt text](arquitetura.png)
 
 
 ### Componentes e Fluxo:

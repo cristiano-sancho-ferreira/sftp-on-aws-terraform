@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - python sdlf-parameters.py
-      - cd infra
+      - cd infra-sftp
       - terraform init -var-file="../dev.tfvars" -migrate-state
 
   build:
